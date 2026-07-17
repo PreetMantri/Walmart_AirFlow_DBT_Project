@@ -20,7 +20,7 @@ def orchestrate():
         token = 'PAT_Token'
         )
 
-        job_trigger = ws.jobs.run_now(job_id=  872161868265153)
+        job_trigger = ws.jobs.run_now(job_id=  TEST)
 
         while True:
 
